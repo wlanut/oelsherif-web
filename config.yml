@@ -1,0 +1,182 @@
+baseURL: "https://oelsherif.com/"
+title: Omar El-Sherif
+paginate: 5
+theme: PaperModX
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Omar El-Sherif
+  description: "WalnutHomelab description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: Me
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+  TocSide: 'right'  # or 'left'
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    # icon: /apple-touch-icon.png
+    # iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Omar El-Sherif
+    subtitle: "I am a current IT professional looking to get ahead in the industry and develop my skills. I love looking for any excuse to utilize scripting and automation to more efficiently complete tasks and contribute to projects. If you'd like to know a little more about me, or see my homelab setup, please visit [<ins>my blog</ins>](https://blog.walnuthomelab.com)."
+    imageUrl: "profile.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    # buttons:
+    #   - name: Posts
+    #     url: posts
+    #   - name: Tags
+    #     url: tags
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Omar El-Sherif"
+    Content: "I am a current IT professional looking to get ahead in the industry and develop my skills. I love looking for any excuse to utilize scripting and automation to more efficiently complete tasks and contribute to projects. If you'd like to know a little more about me, or see my homelab setup, please visit [<ins>my blog</ins>](https://blog.walnuthomelab.com).  \
+    
+    I am a current IT professional looking to get ahead in the industry and develop my skills. I love looking for any excuse to utilize scripting and automation to more efficiently complete tasks and contribute to projects. If you'd like to know a little more about me, or see my homelab setup, please visit [<ins>my blog</ins>](https://blog.walnuthomelab.com).  \
+
+    I am a current IT professional looking to get ahead in the industry and develop my skills. I love looking for any excuse to utilize scripting and automation to more efficiently complete tasks and contribute to projects. If you'd like to know a little more about me, or see my homelab setup, please visit [<ins>my blog</ins>](https://blog.walnuthomelab.com)."
+
+  socialIcons:
+    - name: linkedin
+      url: "https://www.linkedin.com/in/omelsherif/"
+    # - name: stackoverflow
+    #   url: "https://stackoverflow.com"
+    - name: github
+      url: "https://github.com/wlanut"
+
+  # analytics:
+  #   google:
+  #     SiteVerificationTag: "XYZabc"
+  #   bing:
+  #     SiteVerificationTag: "XYZabc"
+  #   yandex:
+  #     SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  # editPost:
+  #   URL: "https://github.com/<path_to_repo>/content"
+  #   Text: "Suggest Changes" # edit text
+  #   appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    includeScore: false
+    shouldSort: false
+    location: 0
+    distance: 1000
+    threshold: 0.2
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: blog
+      name: blog
+      url: "https://blog.walnuthomelab.com/"
+      weight: 20
+    # - identifier: categories
+    #   name: categories
+    #   url: /categories/
+      weight: 30
+    - identifier: linkedin
+      name: linkedin
+      url: "https://www.linkedin.com/in/omelsherif/"
+      weight: 40
+    - identifier: about
+      name: about
+      url: /search/
+      weight: 10
+    - identifier: Github
+      name: github
+      url: "https://github.com/wlanut"
+      weight: 50
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
+
+markup:
+  goldmark:
+    extensions:
+      definitionList: true
+      footnote: true
+      linkify: true
+      linkifyProtocol: https
+      strikethrough: true
+      table: true
+      taskList: true
+      typographer: true
+    parser:
+      attribute:
+        block: false
+        title: true
+      autoHeadingID: true
+      autoHeadingIDType: github
+    renderer:
+      hardWraps: false
+      unsafe: true
+      xhtml: false
+
+sitemap:
+  changefreq: weekly
+  filename: sitemap.xml
+  priority: 0.5
