@@ -1,0 +1,15 @@
+## Summary
+
+While I have been exposed to many aspects of the IT world during my short time in the industry, I quickly determined the aspect I enjoy most: **automation**. Whether I'm writing PowerShell scripts to automate Active Directory user creation and deletion at work, or writing Ansible playbooks to automate deployment of Ubuntu Server VMs to my vSphere environment at home, I truly enjoy being able to take a repetitive task and work through the process step by step to make it as zero-touch as possible. 
+
+As my career has progressed, I've determined that my end goal in IT is to break into DevOps. Creating infrastructure out of repeatable and deployable code, architecting solutions using various platforms and services to arrive at a final product, these are the kinds of things that interest me. Having said that, I know what I don't know. Scripting, virtualization, containers, CI/CD, cloud architecture/networking; I have a little knowledge on some of these concepts, and next to no knowledge on others. I know that in the 10 months I've been in IT, I've made great progress, and am proud of myself for it. I will continue to do all that I can to learn and grow in this industry.
+
+## Background
+
+I graduated from the Academy of Art University San Francisco in 2018 with a BFA in Animation & Visual Effects. Shortly after graduating, I realized that I just wasn't as passionate about animation as I was when I started school, and couldn't see myself doing it for the rest of my life. After working retail for a couple years to get by, I made the decision to figure things out. I had to be introspective and ask myself "What *do* I enjoy doing?" I spent a few months analyzing my hobbies, work, and anything else I did on a daily basis, working through my mental process, and trying to extract what I got enjoyment out of - at a core level. Eventually, I figured it out: **finding creative solutions to complex problems**.
+
+What careers revolved around that concept? "Engineers," I thought to myself initially, but I didn't have the desire or financial means to go back to school. Then I remembered the "Media Arts" class I took in my last year of high school, really it was a "learn how computers work" class. I did well, because my dad taught me a lot about computers growing up.
+
+It was at this point that I realized I had a potential career path in the field of IT. It checked all the boxes. It didn't require me to go back to school, and it resolved the "passion" issue as I already enjoyed working with and building computers, so I may as well take it a step further. I decided to pursue this route near the end of 2020, and did my research on the steps I needed to take (shoutout to r/ITCareerQuestions).
+
+By June 2021, I had acquired the A+ certification. A month later, I landed my first IT job. Two months after that, I acquired the Network+ certification. And in February 2022, I started my second IT job.

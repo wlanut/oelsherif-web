@@ -33,10 +33,10 @@ params:
   disableThemeToggle: false
   TocSide: 'right'  # or 'left'
 
-  ShowReadingTime: true
-  ShowShareButtons: true
+  ShowReadingTime: false
+  ShowShareButtons: false
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -64,7 +64,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Omar El-Sherif
-    subtitle: "I am a current IT professional looking to get ahead in the industry and develop my skills. I love looking for any excuse to utilize scripting and automation to more efficiently complete tasks and contribute to projects. If you'd like to know a little more about me, or see my homelab setup, please visit [<ins>my blog</ins>](https://blog.walnuthomelab.com)."
+    subtitle: "I am a current IT professional looking to gain more knowledge and develop my skillset. I love utilizing scripting and automation to more efficiently complete tasks and contribute to projects. If you'd like to know a little more about me, check out my [<ins>about</ins>](/about/) page. If you'd like to see my homelab setup, feel free to check out my [<ins>blog</ins>](https://blog.walnuthomelab.com)."
     imageUrl: "profile.jpg"
     imageWidth: 120
     imageHeight: 120
@@ -137,7 +137,7 @@ menu:
       weight: 40
     - identifier: about
       name: about
-      url: /search/
+      url: /about/
       weight: 10
     - identifier: Github
       name: github
