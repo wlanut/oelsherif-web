@@ -64,7 +64,7 @@ params:
   profileMode:
     enabled: true # needs to be explicitly set
     title: Omar El-Sherif
-    subtitle: "I am a current IT professional looking to gain more knowledge and develop my skillset. I love utilizing scripting and automation to more efficiently complete tasks and contribute to projects. If you'd like to know a little more about me, check out my [<ins>about</ins>](/about/) page. If you'd like to see my homelab setup, feel free to check out my [<ins>blog</ins>](https://blog.walnuthomelab.com)."
+    subtitle: "I am a current IT professional looking to gain more knowledge and develop my skillset. I love utilizing scripting and automation to more efficiently complete tasks and contribute to projects. If you'd like to know a little more about me, check out my [<ins>about</ins>](/about/) page. If you'd like to see my homelab setup, feel free to visit my [<ins>blog</ins>](https://blog.walnuthomelab.com)."
     imageUrl: "profile.jpg"
     imageWidth: 120
     imageHeight: 120
